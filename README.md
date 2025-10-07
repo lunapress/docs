@@ -1,4 +1,4 @@
-# WP Docs
+# LunaPress Docs
 
 ## Dev
 

@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-    title: 'WP Docs',
-    tagline: 'Dinosaurs are cool',
+    title: 'LunaPress',
+    tagline: 'Simplified WordPress plugin development',
     favicon: 'img/favicon.ico',
 
     // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -75,9 +75,9 @@ const config: Config = {
             respectPrefersColorScheme: true,
         },
         navbar: {
-            title: 'My Site',
+            title: 'LunaPress',
             logo: {
-                alt: 'My Site Logo',
+                alt: 'LunaPress Logo',
                 src: 'img/logo.svg',
             },
             items: [
@@ -89,7 +89,7 @@ const config: Config = {
                 },
                 {to: '/blog', label: 'Blog', position: 'left'},
                 {
-                    href: 'https://github.com/facebook/docusaurus',
+                    href: 'https://github.com/lunapress',
                     label: 'GitHub',
                     position: 'right',
                 },
@@ -137,12 +137,12 @@ const config: Config = {
                         },
                         {
                             label: 'GitHub',
-                            href: 'https://github.com/facebook/docusaurus',
+                            href: 'https://github.com/lunapress',
                         },
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+            copyright: `Copyright © ${new Date().getFullYear()} LinaPress, Inc.`,
         },
         prism: {
             theme: prismThemes.github,
