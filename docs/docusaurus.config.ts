@@ -43,8 +43,7 @@ const config: Config = {
                     sidebarPath: './sidebars.ts',
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                    // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
                 },
                 blog: {
                     showReadingTime: true,
@@ -54,8 +53,7 @@ const config: Config = {
                     },
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                    // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
                     // Useful options to enforce blogging best practices
                     onInlineTags: 'warn',
                     onInlineAuthors: 'warn',
@@ -70,7 +68,7 @@ const config: Config = {
 
     themeConfig: {
         // Replace with your project's social card
-        image: 'img/docusaurus-social-card.jpg',
+        // image: 'img/docusaurus-social-card.jpg',
         colorMode: {
             respectPrefersColorScheme: true,
         },
@@ -83,11 +81,11 @@ const config: Config = {
             items: [
                 {
                     type: 'docSidebar',
-                    sidebarId: 'tutorialSidebar',
+                    sidebarId: 'docsSidebar',
                     position: 'left',
-                    label: 'Tutorial',
+                    label: 'Документация',
                 },
-                {to: '/blog', label: 'Blog', position: 'left'},
+                // {to: '/blog', label: 'Blog', position: 'left'},
                 {
                     href: 'https://github.com/lunapress',
                     label: 'GitHub',
@@ -106,35 +104,18 @@ const config: Config = {
                     title: 'Docs',
                     items: [
                         {
-                            label: 'Tutorial',
+                            label: 'Documentation',
                             to: '/docs/intro',
-                        },
-                    ],
-                },
-                {
-                    title: 'Community',
-                    items: [
-                        {
-                            label: 'Stack Overflow',
-                            href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                        },
-                        {
-                            label: 'Discord',
-                            href: 'https://discordapp.com/invite/docusaurus',
-                        },
-                        {
-                            label: 'X',
-                            href: 'https://x.com/docusaurus',
                         },
                     ],
                 },
                 {
                     title: 'More',
                     items: [
-                        {
-                            label: 'Blog',
-                            to: '/blog',
-                        },
+                        // {
+                        //     label: 'Blog',
+                        //     to: '/blog',
+                        // },
                         {
                             label: 'GitHub',
                             href: 'https://github.com/lunapress',
@@ -143,10 +124,6 @@ const config: Config = {
                 },
             ],
             copyright: `Copyright © ${new Date().getFullYear()} LinaPress, Inc.`,
-        },
-        prism: {
-            theme: prismThemes.github,
-            darkTheme: prismThemes.dracula,
         },
     } satisfies Preset.ThemeConfig,
 };

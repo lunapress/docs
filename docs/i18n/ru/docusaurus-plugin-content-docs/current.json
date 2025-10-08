@@ -3,8 +3,8 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Architecture": {
+  "sidebar.docsSidebar.category.Architecture": {
     "message": "Архитектура",
-    "description": "The label for category Architecture in sidebar tutorialSidebar"
+    "description": "The label for category Architecture in sidebar docsSidebar"
   }
 }
