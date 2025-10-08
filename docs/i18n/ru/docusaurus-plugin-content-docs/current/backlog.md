@@ -2,11 +2,12 @@
 sidebar_position: 100
 ---
 
-# Roadmap {#roadmap}
+# Backlog {#baclog}
 
 ## Общее
 - [x] Нейминг экосистеме
 - [x] Монорепозиторий, как у Symfony, для разделения врапперов на отдельные пакеты
+- [ ] Реализовать поддержку Service Package
 - [ ] Кастомный генератор файлов локализации с поддержкой `TS` и единым конфигом с доменом плагина
 - [ ] Внедрение тестов с **[wp-browser](https://github.com/lucatume/wp-browser)**
 - [ ] Современная замена Carbon Fields ( `Package` )
