@@ -7,10 +7,6 @@
     "message": "LunaPress Logo",
     "description": "The alt text of navbar logo"
   },
-  "item.label.Tutorial": {
-    "message": "Туториал",
-    "description": "Navbar item with label Tutorial"
-  },
   "item.label.Blog": {
     "message": "Блог",
     "description": "Navbar item with label Blog"
@@ -18,5 +14,9 @@
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
+  },
+  "item.label.Documentation": {
+    "message": "Документация",
+    "description": "Navbar item with label Documentation"
   }
 }
